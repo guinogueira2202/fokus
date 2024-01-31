@@ -31,7 +31,7 @@ const startBtnText = startBtn.children[1];
 const musicCheckbox = document.getElementById('alternar-musica');
 
 // Timer
-let counterInSeconds = 1500;
+let counterInSeconds = 3600;
 let intervalId = null;
 
 performeScript();
@@ -268,7 +268,7 @@ function changeContext(context) {
  */
 function updateTimer(context) {
     const durations = {
-        'foco': 1500,
+        'foco': 3600,
         'descanso-curto': 300,
         'descanso-longo': 900
     };
